@@ -4,14 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import TaskApp from './pages/TaskApp';
 import { TasksProvider } from './components/TaskContext';
+import MovingDot from './pages/MovingDot';
 
 function App() {
  
 
   return (
-    <TasksProvider>
-      <TaskApp />
-    </TasksProvider>
+   <MovingDot/>
   );
 }
 
