@@ -5,12 +5,14 @@ import './App.css'
 import TaskApp from './pages/TaskApp';
 import { TasksProvider } from './components/TaskContext';
 import MovingDot from './pages/MovingDot';
+import FeedbackForm1 from './pages/FeedbackForm';
+
 
 function App() {
  
 
   return (
-   <MovingDot/>
+   <FeedbackForm1/>
   );
 }
 
