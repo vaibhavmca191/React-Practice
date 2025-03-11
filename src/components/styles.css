@@ -1,0 +1,33 @@
+.counter {
+    padding: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .fancy {
+    background-color: purple;
+    color: white;
+    border-color: gold;
+  }
+  
+  .hover {
+    transform: scale(1.1);
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  

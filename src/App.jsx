@@ -6,14 +6,20 @@ import TaskApp from './pages/TaskApp';
 import { TasksProvider } from './components/TaskContext';
 import MovingDot from './pages/MovingDot';
 import FeedbackForm1 from './pages/FeedbackForm';
+import Menu from './pages/Menu';
+import Button from './pages/StyleButton';
+import PasswordGenerator from './pages/PasswordGenrator';
+import StateTutorial from './pages/counter';
 
 
 function App() {
  
 
   return (
-   <FeedbackForm1/>
+   <PasswordGenerator/>
   );
 }
+
+
 
 export default App;

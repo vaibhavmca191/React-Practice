@@ -19,8 +19,8 @@ export default function FeedbackForm1() {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <p>How was your Day in The Office ?</p>
+    <form  onSubmit={handleSubmit}>
+      <p>How was your Day in The Office....?</p>
       <textarea
         disabled={isSending}
         value={text}
@@ -29,7 +29,7 @@ export default function FeedbackForm1() {
       <br />
       <button
         disabled={isSending}
-        type="submit"
+        type="submit"    
       >
         Send
       </button>
@@ -38,7 +38,7 @@ export default function FeedbackForm1() {
   );
 }
 
-// Pretend to send a message.
+
 function sendMessage(text) {
   return new Promise(resolve => {
     setTimeout(resolve, 2000);
