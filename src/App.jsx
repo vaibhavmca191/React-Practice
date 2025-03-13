@@ -10,13 +10,16 @@ import Menu from './pages/Menu';
 import Button from './pages/StyleButton';
 import PasswordGenerator from './pages/PasswordGenrator';
 import StateTutorial from './pages/counter';
+import Advancepass from './pages/UseMemo';
+import Memo from './pages/UseMemo';
+import UseCallBack from './pages/UseCallBack';
 
 
 function App() {
  
 
   return (
-   <PasswordGenerator/>
+   <UseCallBack/>
   );
 }
 
