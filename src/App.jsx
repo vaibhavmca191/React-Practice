@@ -13,16 +13,23 @@ import StateTutorial from './pages/counter';
 import Advancepass from './pages/UseMemo';
 import Memo from './pages/UseMemo';
 import UseCallBack from './pages/UseCallBack';
+import Product from './pages/Product';
+import ProductTab from './pages/ProductTab';
+import MsgBox from './pages/MsgBox';
+
+
 
 
 function App() {
  
-
   return (
-   <UseCallBack/>
+    <>
+    <MsgBox userName="vaibhav" textColor="yellow"/>
+    <MsgBox userName="sanket" textColor="red"/>
+    <MsgBox userName="karan" textColor="blue"/>
+   <ProductTab/>   
+    </> 
   );
 }
-
-
 
 export default App;
