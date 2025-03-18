@@ -16,6 +16,9 @@ import UseCallBack from './pages/UseCallBack';
 import Product from './pages/Product';
 import ProductTab from './pages/ProductTab';
 import MsgBox from './pages/MsgBox';
+import Button1 from './pages/Button';
+import Form from './pages/Form';
+import LikeButton from './pages/LikeButton';
 
 
 
@@ -24,10 +27,10 @@ function App() {
  
   return (
     <>
-    <MsgBox userName="vaibhav" textColor="yellow"/>
-    <MsgBox userName="sanket" textColor="red"/>
-    <MsgBox userName="karan" textColor="blue"/>
-   <ProductTab/>   
+    <p>Shruti</p>
+    {/* <h2>Blockbuster Deals | Shop Now</h2>
+   <ProductTab/>    */}
+   <LikeButton/>
     </> 
   );
 }

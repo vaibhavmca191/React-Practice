@@ -1,17 +1,28 @@
 import "./Product.css"; 
+import Price from "./Price";
 
- function Product({tittle,price=1})
+ function Product({title, idx})
 {
-    // console.log(features);
-//  const list = features.map((feature)=><li>{feature}</li>)
-    let isDiscount = price> 30000 ? "5%" : "";
-    let styles = {backgroundColor : price > 30000 ? "pink" : ""};
+   let oldPrices = ["12,495", "11,900", "1,599", "599"];
+   let newPrices = ["8,495", "9,900", "599", "399"];
+   let description = [
+    ["8,000 DPI", "5 programmable buttons"],
+    ["instutive surface", "designed for ipad pro"],
+    ["designed for ipad pro", "instutive surface"],
+    ["wireless","optical orientation"],
+   ];
+
+
   return(
       
-        <div className="Product" style={styles}>
-         <h4>{tittle}</h4>
-         <p>Price: {price} </p>
-         <p>{isDiscount}</p>
+        <div className="Product" >
+            <h4>{title}</h4>
+            <p>{description[idx][0]}</p>
+            <p>{description[idx][1]}</p>
+            <p>{description[idx][2]}</p>
+            <p>{description[idx][3]}</p>
+            
+          <Price oldPrice={oldPrices[idx]} newPrice={newPrices[idx]}/>
          </div>    
       
     );

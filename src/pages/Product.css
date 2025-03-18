@@ -1,6 +1,11 @@
 .Product {
+    flex: 10px;
+    flex-direction: column;
     border: 1px solid rgb(144, 25, 25);  
-    margin-bottom: 5px;
-    border-radius: 14px;
-    padding: 0 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    /* padding: 0 10px; */
+    margin-left: 15px;
+    width: 250px;
+    height: 200px;
 }
